@@ -7,7 +7,7 @@ class MyPaintWidget(Widget):
 
     def on_touch_down(self, touch):
         with self.canvas:
-            Color(1, 1, 0)
+            Color(255, 255, 255)
             d = 30.
             Ellipse(pos=(touch.x - d / 2, touch.y - d / 2), size=(d, d))
 
